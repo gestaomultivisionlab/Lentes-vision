@@ -1,0 +1,35 @@
+LENTES VISION · MULTIVISION LAB
+Como colocar o app no ar (gratuito, cerca de 5 minutos)
+
+1. PUBLICAR
+   - Descompacte este arquivo .zip. Vai aparecer a pasta "lentes-vision".
+   - Acesse https://app.netlify.com/drop e crie uma conta grátis (pode entrar com o Google).
+   - Arraste a pasta "lentes-vision" inteira para a página.
+   - Em poucos segundos o Netlify mostra o endereço do app, algo como
+     https://nome-aleatorio.netlify.app
+   - Em "Site configuration" > "Change site name" você pode trocar para algo como
+     lentes-vision-multivision.netlify.app
+   - Opcional: em "Domain management" dá para usar um domínio próprio, por exemplo
+     lentes.multivisionlab.com.br (pede um ajuste no DNS do site da empresa).
+
+2. INSTALAR NO TABLET
+   - iPad (Safari): abra o endereço > botão Compartilhar > "Adicionar à Tela de Início".
+   - Android (Chrome): abra o endereço > menu (3 pontinhos) > "Instalar app"
+     ou "Adicionar à tela inicial".
+   - O app ganha o ícone "vision" e abre em tela cheia, sem a barra do navegador.
+
+3. USAR SEM INTERNET
+   - Abra o app uma vez com internet. Depois disso ele funciona offline,
+     inclusive em óticas sem sinal.
+
+4. ATUALIZAR
+   - Quando houver uma nova versão do index.html, substitua o arquivo na pasta.
+   - Abra o arquivo sw.js e aumente o número em VERSAO
+     (ex.: "lentes-vision-v1" para "lentes-vision-v2").
+   - No Netlify, abra o site > "Deploys" e arraste a pasta de novo.
+   - Os tablets recebem a atualização na próxima vez que abrirem o app com internet
+     (às vezes é preciso fechar e abrir o app duas vezes).
+
+ATENÇÃO
+   - O link é público: qualquer pessoa com o endereço consegue ver o app.
+   - Foto do Recife: Luci Correia, CC BY 2.0 (Wikimedia Commons). O crédito já está no app.
